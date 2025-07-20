@@ -10,7 +10,6 @@ print(df.info())
 print(df.describe())
 print(df.isnull().sum())
 
-#clean column name
-df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_').str.replace('[^a-z0-9_]', '', regex=True)
+
 
 

@@ -1,0 +1,21 @@
+restaurant_id,name,city,cuisine,restaurant_type,average_cost,delivery_time,rating,votes,online_order,book_table,cost_category,primary_cuisine
+R1243,Restaurant_243,Jaipur,"Mexican, South Indian",Beverage Shop,1205,40,3.1,3408,Yes,No,Luxury,Mexican
+R1149,Restaurant_149,Ahmedabad,"Italian, American",Casual Dining,1620,84,3.3,678,No,Yes,Luxury,Italian
+R1666,Restaurant_666,Chennai,North Indian,Quick Bites,162,31,3.0,3247,No,Yes,Budget,North Indian
+R1293,Restaurant_293,Bengaluru,"North Indian, Biryani, Chinese",Quick Bites,159,45,2.1,2083,Yes,Yes,Budget,North Indian
+R1564,Restaurant_564,Hyderabad,"Chinese, Japanese, Seafood",Quick Bites,953,79,3.9,2818,Yes,No,Premium,Chinese
+R1246,Restaurant_246,Delhi,"American, Seafood",Quick Bites,301,32,3.4,1495,No,No,Moderate,American
+R1122,Restaurant_122,Bengaluru,"Italian, Chinese",Casual Dining,1527,77,5.0,1078,No,No,Luxury,Italian
+R1621,Restaurant_621,Pune,"Continental, Thai",Quick Bites,1200,40,2.2,3704,Yes,Yes,Luxury,Continental
+R1249,Restaurant_249,Delhi,"Mexican, Italian",Beverage Shop,1767,75,3.0,2429,Yes,Yes,Luxury,Mexican
+R1376,Restaurant_376,Kolkata,Mughlai,Beverage Shop,1091,74,4.7,822,Yes,Yes,Luxury,Mughlai
+R1159,Restaurant_159,Jaipur,Italian,Fine Dining,1418,24,2.6,4836,Yes,Yes,Luxury,Italian
+R1200,Restaurant_200,Pune,Mughlai,Cafe,455,66,4.7,91,Yes,Yes,Moderate,Mughlai
+R1545,Restaurant_545,Mumbai,Chinese,Quick Bites,517,47,4.0,3921,Yes,No,Premium,Chinese
+R1017,Restaurant_17,Jaipur,South Indian,Cafe,1309,30,5.0,2737,No,Yes,Luxury,South Indian
+R1269,Restaurant_269,Chennai,"American, Chinese",Fine Dining,1165,62,3.5,196,Yes,No,Luxury,American
+R1012,Restaurant_12,Jaipur,"Biryani, American",Casual Dining,1071,71,2.6,685,No,Yes,Luxury,Biryani
+R1520,Restaurant_520,Kolkata,Continental,Cafe,1828,78,3.3,518,Yes,No,Luxury,Continental
+R1140,Restaurant_140,Chandigarh,South Indian,Fine Dining,1840,66,3.3,1713,Yes,No,Luxury,South Indian
+R1502,Restaurant_502,Delhi,"Japanese, Mexican, North Indian",Cafe,1072,72,2.9,1381,No,No,Luxury,Japanese
+R1198,Restaurant_198,Mumbai,Thai,Quick Bites,1688,35,3.0,458,No,No,Luxury,Thai
