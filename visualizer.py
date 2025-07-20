@@ -66,21 +66,3 @@ plt.clf()
 plt.show()
 
 print("All plots saved as PNG files.")
-import matplotlib.pyplot as plt
-
-# Steps of Git workflow
-steps = ['git add LICENSE', 'git commit -m "Add LICENSE file"', 'git push origin main']
-positions = [1, 2, 3]
-
-plt.figure(figsize=(8, 4))
-plt.plot(positions, [1, 1, 1], marker='o', color='green', linewidth=3)
-plt.xticks(positions, steps, rotation=20)
-plt.yticks([])
-plt.title("📦 Visual Git Workflow: Adding LICENSE to GitHub", fontsize=14)
-plt.grid(axis='x', linestyle='--', alpha=0.5)
-
-for i, step in enumerate(steps):
-    plt.text(positions[i], 1.02, step, ha='center', fontsize=10)
-
-plt.tight_layout()
-plt.show()
