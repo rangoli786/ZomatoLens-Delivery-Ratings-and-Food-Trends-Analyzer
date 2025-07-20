@@ -96,20 +96,19 @@ Platforms like *Zomato* can use these insights to:
 ##  Visualizations
 
 ###  Cuisine Popularity
-![Cuisine Popularity](plots/cuisine_popularity.png)
+![Cuisine Popularity](plot1_cuisine_popularity.png)
 
 ###  Cost vs. Rating
-![Cost vs Rating](plots/cost_vs_rating.png)
+![Cost vs Rating](plot2_cost_vs_rating.png)
 
 ###  Delivery Time Distribution
-![Delivery Time](plots/delivery_time_hist.png)
+![Delivery Time](plot3_delivery_time_hist.png)
 
 ###  Votes vs. Rating
-![Votes vs Rating](plots/votes_vs_rating.png)
+![Votes vs Rating](plot4_votes_vs_rating.png)
 
 ###  Restaurant Types
-![Restaurant Types](plots/restaurant_types.png)
-
+![Restaurant Types](plot5_restaurant_types.png)
 
 
 ---
