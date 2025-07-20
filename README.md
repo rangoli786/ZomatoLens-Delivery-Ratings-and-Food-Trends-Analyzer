@@ -87,6 +87,13 @@ Platforms like *Zomato* can use these insights to:
  -<pre> ```  ZomatoLens-Delivery-Ratings-and-Food-Trends-Analyzer ├── data/ │ └── zomato_data_cleaned.csv ├──  images/ │ ├── cuisine_popularity.png │ ├── cost_vs_rating.png │ ├── delivery_time_histogram.png │ ├── votes_vs_rating.png
  │ └── restaurant_types_distribution.png ├──  notebook/ │ └── Zomato_Analyzer.ipynb ├── README.md ├── requirements.txt ├── .gitignore └── LICENSE ``` </pre>
 
+
+ ---
+ > ⚠️ **Note:** The cleaned dataset (`zomato_data_cleaned.csv`) is too large to display on GitHub.  
+> You can still access and use it after cloning this repo locally.
+📁 **Sample Data Preview:** See [`zomato_data_sample.csv`](dataset/zomato_data_sample.csv) for a quick look at the dataset.
+
+
 ---
 ##  Visualizations
 
