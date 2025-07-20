@@ -23,6 +23,7 @@ plt.ylabel("Cuisine")
 plt.tight_layout()
 plt.savefig("plot1_cuisine_popularity.png")
 plt.clf()
+plt.show()
 
 # Cost vs Rating
 sns.scatterplot(data=df, x='average_cost', y='rating', hue='online_order', palette='Set1', alpha=0.7)
@@ -32,6 +33,7 @@ plt.ylabel("Rating")
 plt.tight_layout()
 plt.savefig("plot2_cost_vs_rating.png")
 plt.clf()
+plt.show()
 
 # Delivery Time Histogram
 sns.histplot(df['delivery_time'], bins=20, kde=True, color='skyblue')
@@ -41,6 +43,7 @@ plt.ylabel("Count")
 plt.tight_layout()
 plt.savefig("plot3_delivery_time_hist.png")
 plt.clf()
+plt.show()
 
 # Votes vs Rating
 sns.scatterplot(data=df, x='votes', y='rating', alpha=0.6, color='orange')
@@ -50,7 +53,7 @@ plt.ylabel("Rating")
 plt.tight_layout()
 plt.savefig("plot4_votes_vs_rating.png")
 plt.clf()
-
+plt.show()
 # Restaurant Type Distribution
 rest_type_counts = df['restaurant_type'].value_counts().head(10)
 sns.barplot(x=rest_type_counts.values, y=rest_type_counts.index, palette="cubehelix")
@@ -60,6 +63,24 @@ plt.ylabel("Restaurant Type")
 plt.tight_layout()
 plt.savefig("plot5_restaurant_types.png")
 plt.clf()
+plt.show()
 
 print("All plots saved as PNG files.")
-print(df.columns)
+import matplotlib.pyplot as plt
+
+# Steps of Git workflow
+steps = ['git add LICENSE', 'git commit -m "Add LICENSE file"', 'git push origin main']
+positions = [1, 2, 3]
+
+plt.figure(figsize=(8, 4))
+plt.plot(positions, [1, 1, 1], marker='o', color='green', linewidth=3)
+plt.xticks(positions, steps, rotation=20)
+plt.yticks([])
+plt.title("📦 Visual Git Workflow: Adding LICENSE to GitHub", fontsize=14)
+plt.grid(axis='x', linestyle='--', alpha=0.5)
+
+for i, step in enumerate(steps):
+    plt.text(positions[i], 1.02, step, ha='center', fontsize=10)
+
+plt.tight_layout()
+plt.show()
